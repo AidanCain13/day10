@@ -11,3 +11,9 @@
   }
   #T2 {
     border: 1px solid black;
+  }
+
+  #T3 {
+      text-align: left ;
+      font-size: 100px; 
+    }
