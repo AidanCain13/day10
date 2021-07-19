@@ -24,13 +24,14 @@
 
 <h1>Car Form</Form></h1>
 
-<p>This is hosted with GitHub Pages and will triger a clent email to send a message with the content of the form. <br> This form is hard coded to use my email to send.</p>
+<p> Hi! Thank you for taking part in my survey about cars today. I would love to know more about your tast in cars.  
+  <br> This is hosted with GitHub Pages and will triger a clent email to send a message with the content of the form. <br> This form is hard coded to use my email to send.</p>
 
 <h2>Please fill out form :) </h2>
 
  
 
-<form action="mailto:W0468733@campus.nscc.ca?subject=From%20our%20Website" 
+<form action="mailto:W0468733@nscc.ca?subject=From%20our%20Website" 
 
 method="post" enctype="text/plain">
 
@@ -41,9 +42,30 @@ method="post" enctype="text/plain">
   <table>
       <tr><td>
 
-        Your first and Last Name:<br>
+        <label for="How are you?"> How are you? :</label>
+    <br>
+    <select id="How are you?">
+      <option value="AMAZING!">AMAZING!</option>
+      <option value="Great!">Great!</option>
+      <option value="good">good</option>
+      <option value="Okay">Okay</option>
+      <option value="Meh, not good not bad">Meh, not good not bad</option>
+      <option value="Not good">Not good</option>
+      <option value="Bad">Bad</option>
+      <option value="Horrible">Horrible</option>
+      <option value="I steped on legos">I steped on legos</option>
+    </select>
 
-        <input type="text" name="YourName" minlength="5" required="required" size="50"><br>
+<br>
+<br>
+
+        Your first name:<br>
+
+        <input type="text" name="first Name" minlength="5" required="required" size="50"><br>
+
+        Your last name:<br>
+
+        <input type="text" name="last Name" minlength="5" required="required" size="50"><br>
 
         Enter your age here:<br> 
 
@@ -60,6 +82,7 @@ method="post" enctype="text/plain">
     <input type="tel" name="Phone Number" pattern="^\d{3}-\d{3}-\d{4}$" required > 
 <br>
 <label for="TDate">Birthday:</label>
+<br>
 <input type="date" id="BDate" name="TDate" required="required">
 
 <br>
@@ -87,48 +110,49 @@ method="post" enctype="text/plain">
 
 <br>
 
-<label for="Cars">Pick A Car :</label>
+<label for="Cars">Pick A Car brand :</label>
 <br>
 <select id="Cars">
-  <option value=""></option>
-  <option value=""></option>
-  <option value=""></option>
-  <option value=""></option>
-  <option value=""></option>
-  <option value=""></option>
-  <option value=""></option>
+  <option value="Toyota">Toyota</option>
+  <option value="Volkswagen">Volkswagen</option>
+  <option value="Honda">Honda</option>
+  <option value="BMW">BMW</option>
+  <option value="Mitsubishi">Mitsubishi</option>
+  <option value="Nissan">Nissan</option>
+  <option value="Mazda">Mazda</option>
+  <option value="Subaru">Subaru</option>
+  <option Value="Suzuki">Suzuki</option>
+  <option value="Lexus">Lexus</option>
+  <option value="Ford">Ford</option>
+  <option value="cheverlet">Cheverlet</option>
+  <option value="Lambroghini">Lambroghini</option>
+  <option value="audi">Audi</option>
+  <option value="Ferrari">Ferrari</option>
+  <option value="porche">Porche</option>
 </select>
 
    <br>
 
-   <label for="Cars">Pick A Car :</label>
+   
 <br>
-<select id="Cars">
-  <option value=""></option>
-  <option value=""></option>
-  <option value=""></option>
-  <option value=""></option>
-  <option value=""></option>
-  <option value=""></option>
-  <option value=""></option>
+Your dream car: <br>
+
+<input type="text" name="Dream car" required="required" size="50"><br>
 </select>
 
    <br>
 
-   <label for="Cars">Pick A Car :</label>
-<br>
-<select id="Cars">
-  <option value=""></option>
-  <option value=""></option>
-  <option value=""></option>
-  <option value=""></option>
-  <option value=""></option>
-  <option value=""></option>
-  <option value=""></option>
+   Your first car: <br>
+
+<input type="text" name="first car" required="required" size="50"><br>
 </select>
 
    <br>
 
+   Car you have now: <br>
+
+<input type="text" name="Current car" required="required" size="50"><br>
+</select>
    
 <br>
 <br>
