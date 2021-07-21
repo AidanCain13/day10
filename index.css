@@ -16,6 +16,9 @@
       font-size: 40px; 
     }
 
+    table {
+      border-style: 1px, solid;
+  }
   
  a:link{
     color: rgb(24, 230, 185);
