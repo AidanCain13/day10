@@ -23,7 +23,7 @@ p {
     }
 
   
-  a:link{
+ .a1:link{
     color: rgb(24, 230, 185);
   }
 
@@ -39,4 +39,3 @@ p {
     color: lightseagreen;
   }
 
-  
