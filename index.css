@@ -22,3 +22,21 @@ p {
       font-size: 40px; 
     }
 
+  
+  a:link{
+    color: rgb(24, 230, 185);
+  }
+
+  a:visited {
+    color:hotpink;
+  }
+
+  p:active{
+    color: lawngreen;
+  }
+
+  p:hover{
+    color: lightseagreen;
+  }
+
+  
