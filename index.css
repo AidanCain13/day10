@@ -1,15 +1,17 @@
-#T1 {
-    border: 1px solid black;
-    font-size: 40px;
+p {
+  vertical-align: text-top ;
+  text-align-last: right;
+  font-size: 40px;
+}
 
-    
+#T1 {
+    border: 1px solid black;    
   }
 
    th {
       vertical-align: text-top ;
       text-align-last: right;
-      font-size: 40px;
-      
+      font-size: 40px;      
   }
   #T2 {
     border: 1px solid black;
@@ -19,3 +21,4 @@
       text-align: left ;
       font-size: 40px; 
     }
+
